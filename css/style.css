@@ -1,0 +1,112 @@
+/*
+Theme Name: Hospital
+Theme URI:
+Version: 1.0
+***/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff; }
+  body a {
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: none; }
+  body #wrapper {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif; }
+    body #wrapper #header .logo-header #search-input .btn-lg {
+      -o-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
+
+#wrapper #topbar {
+  background: #005faa;
+  background: -moz-linear-gradient(top, #005faa 0%, #00498e 100%);
+  background: -webkit-linear-gradient(top, #005faa 0%, #00498e 100%);
+  background: linear-gradient(to bottom, #005faa 0%, #00498e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005faa', endColorstr='#00498e',GradientType=0 );
+  width: 100%;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  color: #fff; }
+  #wrapper #topbar p {
+    font-size: 14px;
+    width: 50%;
+    float: left; }
+  #wrapper #topbar ul {
+    float: right;
+    display: block;
+    list-style: none; }
+    #wrapper #topbar ul li {
+      display: inline-block; }
+      #wrapper #topbar ul li a {
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        padding: 0 5px;
+        position: relative; }
+        #wrapper #topbar ul li a:hover {
+          text-decoration: underline; }
+      #wrapper #topbar ul li .about {
+        position: relative; }
+        #wrapper #topbar ul li .about::after {
+          content: '';
+          position: absolute;
+          border-right: 1px solid #fff;
+          height: 20px;
+          top: 7px;
+          right: -2px; }
+      #wrapper #topbar ul li .facebook, #wrapper #topbar ul li .twitter, #wrapper #topbar ul li .youtube {
+        text-indent: -9999px;
+        display: block;
+        height: auto;
+        width: 16px; }
+      #wrapper #topbar ul li .facebook {
+        background: url(../images/facebook.png) no-repeat top 10px left; }
+      #wrapper #topbar ul li .twitter {
+        background: url(../images/twitter.png) no-repeat top 10px left; }
+      #wrapper #topbar ul li .youtube {
+        background: url(../images/youtube.png) no-repeat top 10px left; }
+#wrapper #header {
+  display: block; }
+  #wrapper #header .logo-header {
+    display: block;
+    clear: both; }
+    #wrapper #header .logo-header a.logo {
+      padding: 22px 0; }
+    #wrapper #header .logo-header #search-input {
+      display: block;
+      margin-top: 60px; }
+      #wrapper #header .logo-header #search-input .input-lg {
+        border-radius: 0px;
+        border: 1px solid #e6e6e6;
+        box-sizing: border-box; }
+      #wrapper #header .logo-header #search-input .btn-lg {
+        border-radius: 0px;
+        border: 1px solid #e6e6e6;
+        box-sizing: border-box;
+        background-color: #4b973d; }
+        #wrapper #header .logo-header #search-input .btn-lg:hover {
+          background-color: #4bab3d; }
+      #wrapper #header .logo-header #search-input .form-control:focus {
+        -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.25); }
+  #wrapper #header .navbar {
+    display: block;
+    clear: both; }
+
+/*
+Responsive
+*/
+@media only screen and (max-width: 1024px) {
+  .navbar .navbar-brand img {
+    width: 70% !important; }
+  .navbar .navbar-nav li a {
+    padding: 0 10px !important; } }
+
+/*# sourceMappingURL=style.css.map */
